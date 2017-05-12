@@ -35,14 +35,19 @@ table {
 	overflow:hidden;
 	font-size:0
 }
-
 .input,.clearfix {
 	display:inline-block
 }
-
 html[xmlns] .input,html[xmlns] .clearfix {
 	display:block
 }
+
+.starrr {
+    font-size: 16px;
+    padding: 0 1px;
+    cursor: pointer;
+    color: #FFD119;
+text-decoration: none; }
 
 * html .input,* html .clearfix {
 	height:1%
@@ -1037,7 +1042,6 @@ div#toprated .item {
 }
 #container {
 	background:#a3def9 url('/img/homepage/bg.png') no-repeat center center
-	
 }
 #container .hp-inner {
 	width:980px;
@@ -1065,7 +1069,6 @@ div#toprated .item {
 #container .msg p {
 	color:#262931
 }
-
 #container .left {
 	width:60%;
 	float:left
